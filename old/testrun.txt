@@ -1,0 +1,84 @@
+    //runTrialSettings();
+    function runTrialSettings() {
+        //row-1 Starts here
+        ctx.beginPath();
+        ctx.rect(1, 1, this._boxLength, this._boxWidth);
+        ctx.fillStyle = "pink";
+        ctx.fill();
+        ctx.font = "italic 10pt Calibri";
+        ctx.textAlign = "center";
+        ctx.fillStyle = "yellow";
+        ctx.fillText("1", 50, 50);
+
+        ctx.beginPath();
+        ctx.rect(103, 1, this._boxLength, this._boxWidth);
+        ctx.fillStyle = "green";
+        ctx.fill();
+        ctx.font = "italic 10pt Calibri";
+        ctx.textAlign = "center";
+        ctx.fillStyle = "yellow";
+        ctx.fillText("2", 150, 50);
+
+        ctx.beginPath();
+        ctx.rect(205, 1, this._boxLength, this._boxWidth);
+        ctx.fillStyle = "Crimson";
+        ctx.fill();
+        ctx.font = "italic 10pt Calibri";
+        ctx.textAlign = "center";
+        ctx.fillStyle = "yellow";
+        ctx.fillText("3", 250, 50);
+        // row 2 start
+        ctx.beginPath();
+        ctx.rect(1, 102, this._boxLength, this._boxWidth);
+        ctx.fillStyle = 'red';
+        ctx.fill();
+        ctx.font = "italic 10pt Calibri";
+        ctx.textAlign = "center";
+        ctx.fillStyle = "white";
+        ctx.fillText("4", 50, 150);
+
+        ctx.beginPath();
+        ctx.rect(103, 102, this._boxLength, this._boxWidth);
+        ctx.fillStyle = 'green';
+        ctx.fill();
+        ctx.font = "italic 10pt Calibri";
+        ctx.textAlign = "center";
+        ctx.fillStyle = "white";
+        ctx.fillText("5", 150, 150);
+
+        ctx.beginPath();
+        ctx.rect(205, 102, this._boxLength, this._boxWidth);
+        ctx.fillStyle = 'crimson';
+        ctx.fill();
+        ctx.font = "italic 10pt Calibri";
+        ctx.textAlign = "center";
+        ctx.fillStyle = "white";
+        ctx.fillText("6", 250, 150);
+        //row 3
+        ctx.beginPath();
+        ctx.rect(1, 201, this._boxLength, this._boxWidth);
+        ctx.fillStyle = 'orange'
+        ctx.fill();
+        ctx.font = "italic 10pt Calibri";
+        ctx.textAlign = "center";
+        ctx.fillStyle = "white";
+        ctx.fillText("7", 50, 250);
+
+        ctx.beginPath();
+        ctx.rect(103, 201, this._boxLength, this._boxWidth);
+        ctx.fillStyle = 'blue';
+        ctx.fill();
+        ctx.font = "italic 10pt Calibri";
+        ctx.textAlign = "center";
+        ctx.fillStyle = "white";
+        ctx.fillText("8", 150, 250);
+
+        ctx.beginPath();
+        ctx.rect(205, 201, this._boxLength, this._boxWidth);
+        ctx.fillStyle = 'yellow';
+        ctx.fill();
+        ctx.font = "italic 10pt Calibri";
+        ctx.textAlign = "center";
+        ctx.fillStyle = "white";
+        ctx.fillText("9", 250, 250);
+    }

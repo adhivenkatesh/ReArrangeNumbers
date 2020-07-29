@@ -1,0 +1,62 @@
+/* *{
+    margin-left:auto;
+    margin-right:auto;
+
+} */
+
+body {
+    margin: 0;
+    height: 100vh; 
+    display: flex; 
+  }
+
+.canvas-container {
+    position: relative;
+    width: 100%;
+     /* height: 500px;  */
+}
+
+
+#myCanvas {
+    position: absolute;
+    background-color: lightgrey
+}
+
+#btnSuffle {
+    transition-duration: 0.9s;
+    position: absolute;
+    padding: 3px 10px;
+    left: 27%;
+    top: 3%; 
+    border-radius: 4px;
+    background-color: darkseagreen;
+    /* lighting-color: darkgray; */
+}
+
+#btnSort {
+    transition-duration: 0.9s;
+    position: absolute;
+    padding: 4px 22px;
+    left: 27%;
+    top:9%;
+    /* bottom: 40% */
+    border-radius: 4px;
+    background-color: darkseagreen;
+    /* lighting-color: darkgray; */
+
+}
+
+h3{
+    left: 27%;
+    top:9%;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: yellow;
+    animation: inherit;
+}
